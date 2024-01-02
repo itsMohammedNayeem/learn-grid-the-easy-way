@@ -151,12 +151,12 @@ h3 {
   display: grid;
   gap: 1.5rem;
   grid-auto-columns: 1fr;
-    grid-template-areas:
-      'one'
-      'two'
-      'three'
-      'four'
-      'five';
+  grid-template-areas:
+    "one"
+      "two"
+      "three"
+      "four"
+      "five";
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
@@ -202,12 +202,12 @@ h3 {
 @media screen and (min-width: 38em) {
   .testimonial-grid {
     grid-template-areas:
-        'one one'
-        'two five'
-        'three five'
-        'four four';
-    }
-    }
+      "one one"
+        "two five"
+        "three five"
+        "four four";
+      }
+}
 
 @media screen and (min-width: 54em) {
   .testimonial-grid {
@@ -224,7 +224,6 @@ h3 {
       "three four four five";
   }
 }
-
 
 .testimonial.quote {
   background-image: url("./images/bg-pattern-quotation.svg");
